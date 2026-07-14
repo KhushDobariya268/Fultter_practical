@@ -47,7 +47,7 @@ class StopwatchExampleState extends State<StopwatchExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Stopwatch Example'),
+        title: const Text('Stopwatch Examplle'),
       ),
       body: Center(
         child: Column(
