@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practicals/login.dart';
 import 'package:flutter_practicals/stopwatch/stopwatch.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class StopwatchRun extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: StopwatchExample(),
+      home: LoginScreen(),
     );
   }
 }
